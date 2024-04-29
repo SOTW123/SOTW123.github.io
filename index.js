@@ -14,10 +14,13 @@ function updateCountdown() {
   // Get the current date and time
   const currentDate = new Date();
   if(currentDate >= targetDate) {
-    body.style.backgroundImage="url(https://i.gifer.com/ZcsJ.gif)";
   }
   // Calculate the time difference between the target date and the current date
   const timeDifference = targetDate.getTime() - currentDate.getTime();
+  if(timeDifference <= 0) {
+  
+    body.style.backgroundImage="url(https://i.gifer.com/ZcsJ.gif)";
+  }
   // Convert the time difference to seconds
   const totalSeconds = Math.floor(timeDifference / 1000);
   // Calculate the remaining hours, minutes, and seconds
