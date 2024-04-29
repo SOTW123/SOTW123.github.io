@@ -1,6 +1,6 @@
 const countdownText = document.getElementById("countdown")
 const body = document.getElementById("body")
-body.style.backgroundImage="url(https://i.gifer.com/ZcsJ.gif)";
+
 // Set the target date and time for the countdown
 console.log(new Date());
 const targetDate = new Date("2024-5-10");
@@ -8,10 +8,14 @@ targetDate.setHours(12)
 targetDate.setMinutes(30)
 targetDate.setSeconds(0);
 console.log(targetDate);
-// Define a function to update the countdown timer
+
+  // Define a function to update the countdown timer
 function updateCountdown() {
   // Get the current date and time
   const currentDate = new Date();
+  if(currentDate >= targetDate) {
+    body.style.backgroundImage="url(https://i.gifer.com/ZcsJ.gif)";
+  }
   // Calculate the time difference between the target date and the current date
   const timeDifference = targetDate.getTime() - currentDate.getTime();
   // Convert the time difference to seconds
