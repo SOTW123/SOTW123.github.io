@@ -1,4 +1,6 @@
 const countdownText = document.getElementById("countdown")
+const body = document.getElementById("body")
+body.style.backgroundImage="url(https://i.gifer.com/ZcsJ.gif)";
 // Set the target date and time for the countdown
 console.log(new Date());
 const targetDate = new Date("2024-5-10");
