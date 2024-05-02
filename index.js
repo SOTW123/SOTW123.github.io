@@ -43,5 +43,5 @@ function updateCountdown() {
   }
 }
 // Call the updateCountdown function initially
-if(
+
 updateCountdown();
