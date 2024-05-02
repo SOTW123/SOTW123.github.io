@@ -3,7 +3,7 @@ const body = document.getElementById("body")
 
 // Set the target date and time for the countdown
 console.log(new Date());
-const targetDate = new Date("2024-5-2");
+const targetDate = new Date("2024-5-3");
 targetDate.setHours(12)
 targetDate.setMinutes(30)
 targetDate.setSeconds(0);
