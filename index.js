@@ -22,6 +22,8 @@ function updateCountdown() {
     body.style.backgroundImage="url(https://i.gifer.com/ZcsJ.gif)";
   } else {
     // Convert the time difference to seconds
+  
+  }
   const totalSeconds = Math.floor(timeDifference / 1000);
   // Calculate the remaining hours, minutes, and seconds
   const days = Math.floor(totalSeconds / (3600*24));
@@ -39,8 +41,6 @@ function updateCountdown() {
   } else {
     console.log("Countdown has ended");
   }
-  }
-  
 }
 // Call the updateCountdown function initially
 if(
