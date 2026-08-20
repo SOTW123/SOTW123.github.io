@@ -1,28 +1,102 @@
+# NOTE: THIS WEBSITE IS NO LONGER MAINTAINED
 
-# Hi
+# OrangeProj
 
-1. Clone
-2. Change Directory (cd)
-3. Install Dependencies (npm i)
-4. Install Live Server Globally (npm i -g live-server)
-5. Start Live Server (live-server)
-6. Enjoy!
+OrangeProj is a practice web development project created to experiment with and improve my skills in **HTML, CSS, and JavaScript**.
 
----
+The website includes interactive cards and several small features implemented for learning and experimentation.
 
-# For Noobs
+## Features
 
-Run the following in your terminal:  
-*(P.S. If you don’t have Git, I’m gonna come to your house at 2 AM, and you don’t wanna know what I’m gonna do, so install Git! And while you’re at it, install npm and Node.js. Thanks!)*
+* Interactive card-based interface
+* Use the **Left Arrow (`←`)** and **Right Arrow (`→`)** keys to switch between cards
+* JavaScript-based interactions
+* Custom HTML and CSS styling
+* Additional experimental features added while practicing front-end development
+
+## Live Website
+
+You can view the project online through GitHub Pages:
+
+**https://SOTW123.github.io**
+
+## Running the Project Locally
+
+### Prerequisites
+
+Before getting started, make sure you have the following installed:
+
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/)
+* npm (included with Node.js)
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SOTW123/OrangeProj.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd OrangeProj
+```
+
+Install the required dependencies:
+
+```bash
+npm install
+```
+
+Install Live Server globally if you do not already have it:
+
+```bash
+npm install -g live-server
+```
+
+Start the local development server:
+
+```bash
+live-server
+```
+
+Live Server will provide a local URL in the terminal. Open that URL in your browser to view the website.
+
+## Quick Setup
+
+If you already have Git, Node.js, and npm installed, you can run:
 
 ```bash
 git clone https://github.com/SOTW123/OrangeProj.git
 cd OrangeProj
-npm i
-npm i -g live-server
+npm install
+npm install -g live-server
 live-server
 ```
 
-After which, there will be a link. Click on it; it's a local server!  
+## Controls
 
-**Bye!**
+| Key             | Action        |
+| --------------- | ------------- |
+| `←` Left Arrow  | Previous card |
+| `→` Right Arrow | Next card     |
+
+## Purpose
+
+This repository is primarily a **learning and practice project**. It is intended to help me experiment with front-end development concepts, improve my understanding of JavaScript interactions, and become more comfortable building websites with HTML and CSS.
+
+## Technologies
+
+* HTML
+* CSS
+* JavaScript
+* npm
+* Live Server
+
+## Author
+
+**SOTW123**
+
+GitHub: **https://github.com/SOTW123**
